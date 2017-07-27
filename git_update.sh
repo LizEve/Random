@@ -1,6 +1,10 @@
 #!/bin/bash
 
-message="Adding files"
+
+
+message=$1
+
+
 
 echo $message
 
