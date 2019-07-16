@@ -4,7 +4,8 @@ library(ggplot2)
 setwd("/Applications/MAC_TreeScaper_v1_Binary_2017-05-03/")
 setwd("/Applications/MAC_TreeScaper_v1_Binary_2017-05-03/PosterTrees/25tip_0.25_1.0start/NLDRcoordinates")
 
-
+setwd("/Applications/MAC_TreeScaper_v1_Binary_2017-06-30/numTipscheck/")
+data=read.table("10tip_1000trees_0.125_1.0start_1_cloud_URF_3D_CCA_COR_STOCHASTIC.out")
 data=read.table("10tip_200trees_0_URF_2D_CCA_COR_STOCHASTIC.out", header=F)
 data=read.table("25tip_0_URF_2D_CCA_COR_STOCHASTIC.out", header=F)
 
